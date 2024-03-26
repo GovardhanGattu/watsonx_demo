@@ -1,0 +1,10 @@
+langchain
+google-generativeai
+python-dotenv
+google-ai-generativelanguage
+InstructorEmbedding
+sentence_transformers==2.2.2
+langchain-google-genai
+chromadb
+tiktoken
+flask
