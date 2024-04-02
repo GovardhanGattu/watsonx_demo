@@ -1,10 +1,10 @@
 langchain
-google-generativeai
 python-dotenv
-google-ai-generativelanguage
 InstructorEmbedding
-sentence_transformers
-langchain-google-genai
+sentence_transformers==2.2.2
 chromadb
 tiktoken
 flask
+ibm-watsonx-ai>=0.2.2
+langchain-ibm
+flask-cors

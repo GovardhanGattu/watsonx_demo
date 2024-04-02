@@ -1,9 +1,11 @@
-FROM python:3.10-alpine3.15
+FROM python:3.11
+RUN pip install --upgrade pip setuptools
 WORKDIR /watsonx
 COPY . /watsonx
 RUN pip install -r requirements.txt
-ENV GOOGLE_API_KEY="AIzaSyBC0sqErda5UEF8AhUvsJZTSc7EH1KwZAo"
-CMD python app.py
+ENV FLASK_ENV production
+EXPOSE 3000
+CMD ["python","-u","app.py"]
 
 
 
