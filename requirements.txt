@@ -2,9 +2,9 @@ langchain
 python-dotenv
 InstructorEmbedding
 sentence_transformers==2.2.2
-chromadb
 tiktoken
+chromadb
 flask
+flask-cors
 ibm-watsonx-ai>=0.2.2
 langchain-ibm
-flask-cors
